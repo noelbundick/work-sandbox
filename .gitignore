@@ -1,0 +1,5 @@
+/edge/**/*
+!/edge/.gitkeep
+
+/setup/MicrosoftEdgeEnterpriseX64.msi
+/setup/err.log

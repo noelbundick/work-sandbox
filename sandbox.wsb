@@ -1,0 +1,24 @@
+<Configuration>
+  <vGPU>Enable</vGPU>
+  <Networking>Default</Networking>
+  <AudioInput>Enable</AudioInput>
+  <VideoInput>Enable</VideoInput>
+  <ClipboardRedirection>Enable</ClipboardRedirection>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\setup</HostFolder>
+      <SandboxFolder>C:\sandbox</SandboxFolder>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\desktop</HostFolder>
+      <SandboxFolder>C:\Users\Public\Desktop</SandboxFolder>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\edge</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\Edge</SandboxFolder>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>powershell.exe -ExecutionPolicy Bypass -File C:\sandbox\setup.ps1</Command>
+  </LogonCommand>
+</Configuration>
