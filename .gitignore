@@ -1,5 +1,8 @@
-/edge/**/*
-!/edge/.gitkeep
+/user/Local/*/*/**/*
+!/user/Local/*/*/.gitkeep
+/user/Roaming/*/*/**/*
+!/user/Roaming/*/*/.gitkeep
 
-/setup/MicrosoftEdgeEnterpriseX64.msi
-/setup/err.log
+/setup/*.msi
+/setup/*.log
+/setup/*.jpg

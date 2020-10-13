@@ -14,8 +14,24 @@
       <SandboxFolder>C:\Users\Public\Desktop</SandboxFolder>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>C:\temp\sandbox\edge</HostFolder>
+      <HostFolder>C:\temp\sandbox\user\Local\Microsoft\Edge</HostFolder>
       <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\Edge</SandboxFolder>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\user\Local\Microsoft\Teams</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\Teams</SandboxFolder>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\user\Local\Microsoft\TeamsMeetingAddin</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\TeamsMeetinAddin</SandboxFolder>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\user\Local\Microsoft\TeamsPresenceAddin</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\Teams\PresenceAddin</SandboxFolder>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox\user\Roaming\Microsoft\Teams</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Microsoft\Teams</SandboxFolder>
     </MappedFolder>
   </MappedFolders>
   <LogonCommand>

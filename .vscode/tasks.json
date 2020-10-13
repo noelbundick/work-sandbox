@@ -12,6 +12,16 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "WSLSandbox",
+      "type": "shell",
+      "command": "/bin/bash -c 'cmd.exe /c start $(wslpath -w ${workspaceFolder}/sandbox.wsb)'",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
